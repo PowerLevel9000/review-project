@@ -5,12 +5,12 @@
 }
 
 body {
-  background-image: radial-gradient(rgba(255, 100, 0, .5), rgba(0, 255, 255, .5), rgba(255, 0, 0, .5))
+  background-image: radial-gradient(rgba(255, 100, 0, 0.5), rgba(0, 255, 255, 0.5), rgba(255, 0, 0, 0.5));
 }
 
 header {
-  width: 100erm;
-  height: 50erm;
+  width: 100rem;
+  height: 50rem;
   background-color: #f0f9a9;
   display: flex;
   justify-content: space-between;
@@ -33,7 +33,7 @@ header {
   display: block;
 }
 
-nav>ul {
+nav ul {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -44,20 +44,20 @@ nav>ul {
   height: 100%;
 }
 
-nav>ul>li {
-  color: #ff00ff;
+nav ul li {
+  color: #f0f;
   margin: 0 0.2rem;
   padding: 0.5rem;
   display: block;
 }
 
-nav>ul>li:hover {
+nav ul li:hover {
   background-color: #f000f0;
   color: #ff0;
   cursor: pointer;
 }
 
-li>a {
+li a {
   color: inherit;
   text-decoration: none;
 }
@@ -76,7 +76,7 @@ li>a {
   height: auto;
   text-align: center;
   margin: 0 auto;
-  background-image: linear-gradient(90deg, rgba(100, 100, 100, .5), rgba(200, 200, 200, .5));
+  background-image: linear-gradient(90deg, rgba(100, 100, 100, 0.5), rgba(200, 200, 200, 0.5));
 }
 
 .yan {
